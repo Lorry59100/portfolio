@@ -1,0 +1,184 @@
+/* HEADER */
+
+
+.arrondi {
+    border-radius: 50%;
+  }
+
+.tete {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.avatar {
+    padding: auto;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* MAIN */
+
+.exp {
+    display: flex;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.skills {
+    margin-top: 180px;
+    text-align: center;
+}
+
+
+.skills .round {
+    min-height: 255px;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: -20px;
+}
+
+.carousel .round strong {
+    position: absolute;
+    top: 37%;
+    left: 70%;
+    /* margin-top: -50px; */
+    transform: translate(-50%);
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+
+.carousel .round2 strong {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    /* margin-top: -50px; */
+    transform: translate(-50%);
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+
+.round {
+    margin-top: 1.5em;
+}
+
+.round2 {
+    margin-top: 1.5em;
+}
+
+.skills span {
+    display: block;
+    color: #999;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.skills span i {
+   color: #0554ff;
+   font-size: 22px;
+   margin-right: 7px;
+}
+
+section button:hover{
+    background-color: #ff5c5c;
+}
+
+
+.skilltwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillthree {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainskill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.slide
+{
+    display: flex;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.visible
+{
+    display: initial;
+    display: flex;
+}
+.hidden2
+{
+    display: none;
+}
+
+.visible2
+{
+    display: initial;
+    display: flex;
+}
+
+.yo {
+    display: flex;
+}
+
+
+#myCarousel {
+    background-image: url('../img/programmation.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px black;
+}
+
+#myCarousel2 {
+    background-image: url('../img/logiciels.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.etiquette > img {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  margin-right: 4em;
+}
+
+
+
+/*************TIMELINE**************** */
+
+ul li {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+
