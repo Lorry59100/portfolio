@@ -3,12 +3,13 @@
 
 .arrondi {
     border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
   }
 
 .tete {
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 .avatar {
@@ -182,3 +183,104 @@ li {
     list-style: none;
 }
 
+/* RESPONSIVE */
+
+@media screen and (max-width: 375px) { 
+
+    .arrondi {
+        border-radius: 50%;
+        max-width: 150px;
+        max-height: 150px;
+      }
+
+
+/*     .avatar {
+        display: flex;
+        align-items: center;
+    } */
+
+    .tete {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maintext {
+        align-items: center;
+    }
+
+    .maintext > h1 {
+        text-align: center;
+    }
+
+    .infos {
+        display: contents;
+
+    }
+
+    
+    .visible {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .visible2 {
+        flex-direction: column-reverse;
+        margin-left: 10%;
+    }
+
+    .carousel .round strong {
+        /* position: absolute; */
+        top: 70%;
+        left: 50%;
+        /* margin-top: -50px; */
+       /*  transform: translate(-50%);
+        font-size: 40px;
+        color: white;
+        font-weight: 100; */
+    }
+
+    .round {
+        margin-left: 23%;
+        margin-bottom: 2%;
+    }
+    .carousel .round2 strong {
+        /* position: absolute; */
+        top: 70%;
+        left: 50%;
+        /* margin-top: -50px; */
+       /*  transform: translate(-50%);
+        font-size: 40px;
+        color: white;
+        font-weight: 100; */
+    }
+
+    .round2 {
+        margin-left: 23%;
+        margin-bottom: 2%;
+    }
+
+    .btn-next {
+        /* display: none; */
+        margin-left: -8em;
+    }
+    .btn-prev {
+        margin-right: -8em;
+        z-index: 50;
+        /* margin-right: -8em; */
+    }
+    .btn-next2 {
+        /* display: none; */
+        margin-left: -8em;
+    }
+    .btn-prev2 {
+        /* display: none; */
+        margin-right: -8em;
+        z-index: 50;
+    }
+
+
+    .bande {
+        flex-direction: column;
+    }
+
+}

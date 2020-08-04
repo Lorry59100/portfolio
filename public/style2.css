@@ -112,7 +112,7 @@ article {
 }
 article date {
   display: block;
-  text-align: right;
+  /* text-align: right; */
 }
 article h2 {
   font-family: merriweather, sans-serif;
@@ -147,7 +147,7 @@ div.mask article {
 }
 div.mask article date {
   display: block;
-  text-align: right;
+  /* text-align: right; */
 }
 div.mask article h2 {
   font-family: merriweather, sans-serif;
@@ -166,7 +166,7 @@ div.mask article p {
 .bande {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .bande img {
@@ -174,12 +174,99 @@ div.mask article p {
   width: 8rem;
   border-radius: 50%;
   border: 1px solid black;
+  margin: 0.5em;
+}
+
+.doublon {
+  display: flex;
 }
 
 #mone {
   height: 50%;
 }
 
+#mtwo {
+  height: 85%;
+}
+
+#mthree {
+  height: 50%;
+}
+
+#mfour {
+  height: 50%;
+}
+
+
+/* Footer */
+a {
+  color: black;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+
+/* RESPONSIVE 2 */
+
+@media screen and (max-width: 375px) { 
+
+
+  div#timeline .dot:nth-child(1) {
+    left: 5%;
+    background-color: #20638f;
+  }
+  div#timeline .dot:nth-child(2) {
+    left: 30%;
+    background-color: #20638f;
+  }
+  div#timeline .dot:nth-child(3) {
+    left: 55%;
+    background-color: #20638f;
+  }
+  div#timeline .dot:nth-child(4) {
+    left: 79%;
+    background-color: #20638f;
+  }
+
+  
+  #mone {
+    height: 60%;
+  }
+  
+  #mtwo  {
+    height: 80%;
+    /* font-weight: 30; */
+    font-size: 0.7em;
+  }
+  #mtwo > br  {
+    display: none;
+  }
+  #mtwo > .bande > img  {
+    height: 3rem;
+    width: 3rem;
+  }
+  #mtwo > .bande > h3  {
+ 
+    font-size: medium;
+  }
+  
+  #mthree {
+    height: 70%;
+  }
+  
+  #mfour {
+    height: 80%;
+  }
+
+
+  .social > a {
+    padding: 1em;
+  }
+
+}
 
 
 
