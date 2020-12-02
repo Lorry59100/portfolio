@@ -89,6 +89,7 @@ div#timeline .dot date {
   position: relative;
   top: -60px;
   text-align: center;
+  margin-top: 3.5em;
 }
 div#timeline .dot span {
   display: inline-block;
