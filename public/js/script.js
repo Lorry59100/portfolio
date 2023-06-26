@@ -1,3 +1,17 @@
+// CALCUL DE L AGE
+const birthDate = new Date('1988-04-17');
+const currentDate = new Date();
+
+const timeDifferenceInMilliseconds = currentDate - birthDate;
+const ageInMilliseconds = new Date(timeDifferenceInMilliseconds);
+
+const ageInYears = ageInMilliseconds.getUTCFullYear() - 1970;
+
+// Insérer l'âge dans le paragraphe correspondant
+const ageElement = document.getElementById('age');
+ageElement.textContent = ageInYears + ' ans';
+
+
 // FONCTION % CERCLE 1
 function Circlle(el) {
     $(el).circleProgress({fill: {color : '#b5fd1c'}})
